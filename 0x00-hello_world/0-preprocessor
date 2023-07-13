@@ -1,2 +1,3 @@
 #!/bin/bash
-mv a.out c
+gcc $CFILE -o main
+./main > c
