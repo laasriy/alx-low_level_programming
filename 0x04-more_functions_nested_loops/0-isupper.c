@@ -7,5 +7,6 @@
  */
 int _isupper(int c) 
 {
-    return (c >= 'A' && c <= 'Z');
+	printf("%d: %d\n ", c, _isupper(c));
+	return(0);
 }
